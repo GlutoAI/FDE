@@ -1,0 +1,4 @@
+# Nonsecret application defaults. Only local/test diagnostic execution exists today.
+env = "local"
+model_mode = "fixture"
+external_sending_enabled = false

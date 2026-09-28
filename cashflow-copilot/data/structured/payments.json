@@ -1,0 +1,462 @@
+[
+  {
+    "payment_id": "pay_0001",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-001",
+    "invoice_id": "INV-A-1-07",
+    "payment_date": "2026-07-12",
+    "amount_cents": 237500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0002",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-001",
+    "invoice_id": "INV-A-1-08",
+    "payment_date": "2026-08-15",
+    "amount_cents": 362500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0003",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-001",
+    "invoice_id": "INV-A-1-09",
+    "payment_date": "2026-09-14",
+    "amount_cents": 325000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0004",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-002",
+    "invoice_id": "INV-A-2-07",
+    "payment_date": "2026-07-22",
+    "amount_cents": 225000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0005",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-002",
+    "invoice_id": "INV-A-2-08",
+    "payment_date": "2026-08-13",
+    "amount_cents": 575000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0006",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-002",
+    "invoice_id": "INV-A-2-09",
+    "payment_date": "2026-09-12",
+    "amount_cents": 487500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0007",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-003",
+    "invoice_id": "INV-A-3-07",
+    "payment_date": "2026-07-13",
+    "amount_cents": 162500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0008",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-003",
+    "invoice_id": "INV-A-3-08",
+    "payment_date": "2026-08-15",
+    "amount_cents": 312500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0009",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-003",
+    "invoice_id": "INV-A-3-09",
+    "payment_date": "2026-09-21",
+    "amount_cents": 550000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0010",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-004",
+    "invoice_id": "INV-A-4-07",
+    "payment_date": "2026-07-20",
+    "amount_cents": 162500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0011",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-004",
+    "invoice_id": "INV-A-4-08",
+    "payment_date": "2026-08-22",
+    "amount_cents": 300000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0012",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-004",
+    "invoice_id": "INV-A-4-09",
+    "payment_date": "2026-09-18",
+    "amount_cents": 575000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0013",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-005",
+    "invoice_id": "INV-A-5-07",
+    "payment_date": "2026-07-19",
+    "amount_cents": 325000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0014",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-005",
+    "invoice_id": "INV-A-5-08",
+    "payment_date": "2026-08-12",
+    "amount_cents": 362500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0015",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-005",
+    "invoice_id": "INV-A-5-09",
+    "payment_date": "2026-09-18",
+    "amount_cents": 275000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0016",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-006",
+    "invoice_id": "INV-A-6-07",
+    "payment_date": "2026-07-16",
+    "amount_cents": 412500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0017",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-006",
+    "invoice_id": "INV-A-6-08",
+    "payment_date": "2026-08-15",
+    "amount_cents": 262500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0018",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-006",
+    "invoice_id": "INV-A-6-09",
+    "payment_date": "2026-09-13",
+    "amount_cents": 412500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0019",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-007",
+    "invoice_id": "INV-A-7-07",
+    "payment_date": "2026-07-18",
+    "amount_cents": 212500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0020",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-007",
+    "invoice_id": "INV-A-7-08",
+    "payment_date": "2026-08-17",
+    "amount_cents": 225000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0021",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-007",
+    "invoice_id": "INV-A-7-09",
+    "payment_date": "2026-09-21",
+    "amount_cents": 425000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0022",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-008",
+    "invoice_id": "INV-A-8-07",
+    "payment_date": "2026-07-12",
+    "amount_cents": 350000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0023",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-008",
+    "invoice_id": "INV-A-8-08",
+    "payment_date": "2026-08-20",
+    "amount_cents": 512500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0024",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-008",
+    "invoice_id": "INV-A-8-09",
+    "payment_date": "2026-09-18",
+    "amount_cents": 237500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0025",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-009",
+    "invoice_id": "INV-A-9-07",
+    "payment_date": "2026-07-20",
+    "amount_cents": 212500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0026",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-009",
+    "invoice_id": "INV-A-9-08",
+    "payment_date": "2026-08-22",
+    "amount_cents": 375000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0027",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-009",
+    "invoice_id": "INV-A-9-09",
+    "payment_date": "2026-09-21",
+    "amount_cents": 437500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0028",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-010",
+    "invoice_id": "INV-A-10-07",
+    "payment_date": "2026-07-13",
+    "amount_cents": 300000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0029",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-010",
+    "invoice_id": "INV-A-10-08",
+    "payment_date": "2026-08-22",
+    "amount_cents": 175000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0030",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-010",
+    "invoice_id": "INV-A-10-09",
+    "payment_date": "2026-09-16",
+    "amount_cents": 325000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0031",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-011",
+    "invoice_id": "INV-A-11-07",
+    "payment_date": "2026-07-15",
+    "amount_cents": 212500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0032",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-011",
+    "invoice_id": "INV-A-11-08",
+    "payment_date": "2026-08-18",
+    "amount_cents": 225000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0033",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-011",
+    "invoice_id": "INV-A-11-09",
+    "payment_date": "2026-09-19",
+    "amount_cents": 362500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0034",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-012",
+    "invoice_id": "INV-A-12-07",
+    "payment_date": "2026-07-14",
+    "amount_cents": 437500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0035",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-012",
+    "invoice_id": "INV-A-12-08",
+    "payment_date": "2026-08-17",
+    "amount_cents": 437500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0036",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-012",
+    "invoice_id": "INV-A-12-09",
+    "payment_date": "2026-09-22",
+    "amount_cents": 312500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0037",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-001",
+    "invoice_id": "INV-B-1-07",
+    "payment_date": "2026-07-22",
+    "amount_cents": 362500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0038",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-001",
+    "invoice_id": "INV-B-1-08",
+    "payment_date": "2026-08-21",
+    "amount_cents": 200000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0039",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-001",
+    "invoice_id": "INV-B-1-09",
+    "payment_date": "2026-09-20",
+    "amount_cents": 275000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0040",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-002",
+    "invoice_id": "INV-B-2-07",
+    "payment_date": "2026-07-14",
+    "amount_cents": 337500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0041",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-002",
+    "invoice_id": "INV-B-2-08",
+    "payment_date": "2026-08-18",
+    "amount_cents": 512500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0042",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-002",
+    "invoice_id": "INV-B-2-09",
+    "payment_date": "2026-09-22",
+    "amount_cents": 362500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0043",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-003",
+    "invoice_id": "INV-B-3-07",
+    "payment_date": "2026-07-15",
+    "amount_cents": 587500,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0044",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-003",
+    "invoice_id": "INV-B-3-08",
+    "payment_date": "2026-08-12",
+    "amount_cents": 400000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_0045",
+    "tenant_id": "tenant_copper",
+    "customer_id": "CUS-B-003",
+    "invoice_id": "INV-B-3-09",
+    "payment_date": "2026-09-12",
+    "amount_cents": 325000,
+    "currency": "USD",
+    "status": "settled"
+  },
+  {
+    "payment_id": "pay_partial_summit",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-002",
+    "invoice_id": "INV-A-1002",
+    "payment_date": "2026-09-10",
+    "amount_cents": 400000,
+    "currency": "USD",
+    "status": "settled"
+  }
+]

@@ -1,0 +1,4 @@
+assumption_id,tenant_id,invoice_id,expected_date,amount_cents,currency,evidence_status,include_in_baseline,evidence_document_id,recorded_at
+receipt_1,tenant_aurora,INV-A-1004,2026-10-05,700000,USD,scheduled_by_customer,true,email-northstar-scheduled,2026-09-25T12:00:00Z
+receipt_2,tenant_aurora,INV-A-1005,2026-10-08,500000,USD,scheduled_by_customer,true,email-maple-scheduled,2026-09-25T12:00:00Z
+receipt_3,tenant_aurora,INV-A-1002,2026-10-02,200000,USD,tentative,false,email-summit-promise,2026-09-25T12:00:00Z

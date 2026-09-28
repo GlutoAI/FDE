@@ -1,0 +1,2 @@
+# Live model access is selected explicitly by the smoke command, not ordinary startup.
+model_mode = "fixture"

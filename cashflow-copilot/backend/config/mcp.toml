@@ -1,0 +1,14 @@
+# Approved MCP servers. The client launches only these package modules over stdio, and refuses
+# to connect unless a server advertises exactly the tools listed here.
+[servers.finance]
+module = "app.mcp.finance_server"
+tools = ["get_customer", "list_customer_invoices"]
+init_timeout_seconds = 20
+read_timeout_seconds = 10
+
+# Agent roles see only the tools listed for them, per server.
+[roles.customer_lookup]
+finance = ["get_customer"]
+
+[roles.receivables_reader]
+finance = ["get_customer", "list_customer_invoices"]

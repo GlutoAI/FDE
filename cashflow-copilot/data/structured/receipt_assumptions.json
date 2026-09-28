@@ -1,0 +1,38 @@
+[
+  {
+    "assumption_id": "receipt_1",
+    "tenant_id": "tenant_aurora",
+    "invoice_id": "INV-A-1004",
+    "expected_date": "2026-10-05",
+    "amount_cents": 700000,
+    "currency": "USD",
+    "evidence_status": "scheduled_by_customer",
+    "include_in_baseline": true,
+    "evidence_document_id": "email-northstar-scheduled",
+    "recorded_at": "2026-09-25T12:00:00Z"
+  },
+  {
+    "assumption_id": "receipt_2",
+    "tenant_id": "tenant_aurora",
+    "invoice_id": "INV-A-1005",
+    "expected_date": "2026-10-08",
+    "amount_cents": 500000,
+    "currency": "USD",
+    "evidence_status": "scheduled_by_customer",
+    "include_in_baseline": true,
+    "evidence_document_id": "email-maple-scheduled",
+    "recorded_at": "2026-09-25T12:00:00Z"
+  },
+  {
+    "assumption_id": "receipt_3",
+    "tenant_id": "tenant_aurora",
+    "invoice_id": "INV-A-1002",
+    "expected_date": "2026-10-02",
+    "amount_cents": 200000,
+    "currency": "USD",
+    "evidence_status": "tentative",
+    "include_in_baseline": false,
+    "evidence_document_id": "email-summit-promise",
+    "recorded_at": "2026-09-25T12:00:00Z"
+  }
+]

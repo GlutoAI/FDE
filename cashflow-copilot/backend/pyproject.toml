@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cashflow-copilot"
+version = "0.1.0"
+description = "Cashflow copilot backend: FastAPI app, agents, and startup foundations"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  # anthropic 1.x rejects arguments Pydantic AI 2.31 sends; keep the 0.x line until it supports 1.x.
+  "aiosqlite>=0.20,<1",
+  "anthropic>=0.108,<1",
+  "fastapi>=0.111,<1",
+  "openai>=2.38,<3",
+  "pydantic>=2.10,<3",
+  "pydantic-ai-slim[openai,anthropic,mcp]>=2,<3",
+  "pydantic-settings>=2.7,<3",
+  "python-dotenv>=1.0,<2",
+  "PyYAML>=6.0.1,<7",
+  "sqlalchemy[asyncio]>=2.0.36,<3",
+  "uvicorn[standard]>=0.29,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<9", "httpx>=0.27,<1", "ruff>=0.11,<1", "mypy>=1.15,<2", "types-PyYAML>=6,<7"]
+
+[project.scripts]
+cashflow = "app.cli:run_cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "N", "ANN", "D"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["app"]
+plugins = ["pydantic.mypy"]

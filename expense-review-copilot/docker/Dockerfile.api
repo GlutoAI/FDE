@@ -1,0 +1,33 @@
+# FastAPI backend. Build from the project root so the root .dockerignore applies:
+#   docker compose -f docker/compose.yaml build api
+# The layout mirrors the repository (/project/backend/app) because the settings derive the
+# project root from the package's location. No .env, tests, or data enter the image.
+FROM python:3.12-slim-bookworm
+
+# OPENSSL_armcap=0: on Apple M4 hosts the Linux VM advertises SME, and the OpenSSL bundled in
+# `cryptography` (imported by `mcp`) dies with SIGILL while probing it. x86 ignores the value;
+# the cost is OpenSSL's ARM crypto acceleration. MCP children receive it via PLATFORM_VARIABLES.
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    OPENSSL_armcap=0
+
+RUN groupadd --system app && useradd --system --gid app --no-create-home app
+
+WORKDIR /project/backend
+
+COPY backend/requirements.txt ./
+RUN pip install -r requirements.txt
+
+COPY backend/config ./config
+COPY backend/app ./app
+RUN mkdir data && chown app:app data
+
+USER app
+EXPOSE 8000
+
+HEALTHCHECK --interval=10s --timeout=3s --start-period=10s --retries=3 \
+    CMD ["python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,38 @@
+[
+  {
+    "preference_id": "memory_tone",
+    "tenant_id": "tenant_aurora",
+    "customer_id": null,
+    "key": "communication_tone",
+    "value": "Friendly, concise, and specific about invoice amounts.",
+    "approved_by": "user_aurora_owner",
+    "status": "approved",
+    "source": "synthetic_explicit_user_preference",
+    "created_at": "2026-09-20T12:00:00Z",
+    "expires_at": "2027-09-20T12:00:00Z"
+  },
+  {
+    "preference_id": "memory_harbor",
+    "tenant_id": "tenant_aurora",
+    "customer_id": "CUS-A-001",
+    "key": "preferred_salutation",
+    "value": "Hello Alex",
+    "approved_by": "user_aurora_owner",
+    "status": "approved",
+    "source": "synthetic_explicit_user_preference",
+    "created_at": "2026-09-20T12:00:00Z",
+    "expires_at": "2027-09-20T12:00:00Z"
+  },
+  {
+    "preference_id": "memory_report",
+    "tenant_id": "tenant_aurora",
+    "customer_id": null,
+    "key": "report_format",
+    "value": "Show cash assumptions separately from collected cash.",
+    "approved_by": "user_aurora_owner",
+    "status": "approved",
+    "source": "synthetic_explicit_user_preference",
+    "created_at": "2026-09-20T12:00:00Z",
+    "expires_at": "2027-09-20T12:00:00Z"
+  }
+]

@@ -1,0 +1,9 @@
+payroll_id,tenant_id,pay_date,total_cash_requirement_cents,currency,status,headcount,description
+PAYROLL-A-07,tenant_aurora,2026-07-25,4000000,USD,paid,10,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-A-08,tenant_aurora,2026-08-25,4000000,USD,paid,10,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-A-09,tenant_aurora,2026-09-25,4000000,USD,paid,10,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-A-NEXT,tenant_aurora,2026-10-09,4000000,USD,scheduled,10,"Aggregate wages, withholdings, and employer cash costs; no tax calculation."
+PAYROLL-B-07,tenant_copper,2026-07-25,900000,USD,paid,3,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-B-08,tenant_copper,2026-08-25,900000,USD,paid,3,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-B-09,tenant_copper,2026-09-25,900000,USD,paid,3,Aggregate cash requirement; employee-level data intentionally omitted.
+PAYROLL-B-NEXT,tenant_copper,2026-10-09,900000,USD,scheduled,3,"Aggregate wages, withholdings, and employer cash costs; no tax calculation."

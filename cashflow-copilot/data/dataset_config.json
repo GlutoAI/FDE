@@ -1,0 +1,19 @@
+{
+  "dataset_id": "cashflow-copilot-synthetic-v1",
+  "schema_version": "1.0.0",
+  "is_synthetic": true,
+  "seed": 42,
+  "as_of": "2026-09-26T12:00:00Z",
+  "forecast_start_exclusive": "2026-09-26",
+  "forecast_end_inclusive": "2026-10-10",
+  "currency": "USD",
+  "money_storage": "integer cents",
+  "primary_tenant_id": "tenant_aurora",
+  "secondary_tenant_id": "tenant_copper",
+  "historical_period": [
+    "2026-07-01",
+    "2026-09-26"
+  ],
+  "baseline_time_semantics": "Posted records exist at as_of; future schedules are assumptions, not settled cash.",
+  "scope": "Application-normalized fixtures, not native QuickBooks, identity-provider, or LangGraph payloads."
+}

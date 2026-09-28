@@ -1,0 +1,82 @@
+[
+  {
+    "payroll_id": "PAYROLL-A-07",
+    "tenant_id": "tenant_aurora",
+    "pay_date": "2026-07-25",
+    "total_cash_requirement_cents": 4000000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 10,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-A-08",
+    "tenant_id": "tenant_aurora",
+    "pay_date": "2026-08-25",
+    "total_cash_requirement_cents": 4000000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 10,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-A-09",
+    "tenant_id": "tenant_aurora",
+    "pay_date": "2026-09-25",
+    "total_cash_requirement_cents": 4000000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 10,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-A-NEXT",
+    "tenant_id": "tenant_aurora",
+    "pay_date": "2026-10-09",
+    "total_cash_requirement_cents": 4000000,
+    "currency": "USD",
+    "status": "scheduled",
+    "headcount": 10,
+    "description": "Aggregate wages, withholdings, and employer cash costs; no tax calculation."
+  },
+  {
+    "payroll_id": "PAYROLL-B-07",
+    "tenant_id": "tenant_copper",
+    "pay_date": "2026-07-25",
+    "total_cash_requirement_cents": 900000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 3,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-B-08",
+    "tenant_id": "tenant_copper",
+    "pay_date": "2026-08-25",
+    "total_cash_requirement_cents": 900000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 3,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-B-09",
+    "tenant_id": "tenant_copper",
+    "pay_date": "2026-09-25",
+    "total_cash_requirement_cents": 900000,
+    "currency": "USD",
+    "status": "paid",
+    "headcount": 3,
+    "description": "Aggregate cash requirement; employee-level data intentionally omitted."
+  },
+  {
+    "payroll_id": "PAYROLL-B-NEXT",
+    "tenant_id": "tenant_copper",
+    "pay_date": "2026-10-09",
+    "total_cash_requirement_cents": 900000,
+    "currency": "USD",
+    "status": "scheduled",
+    "headcount": 3,
+    "description": "Aggregate wages, withholdings, and employer cash costs; no tax calculation."
+  }
+]

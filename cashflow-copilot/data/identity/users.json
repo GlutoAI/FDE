@@ -1,0 +1,37 @@
+[
+  {
+    "user_id": "user_aurora_owner",
+    "identity_subject": "synthetic_subject_user_aurora_owner",
+    "email": "owner@aurora.example",
+    "display_name": "Aurora owner",
+    "active": true
+  },
+  {
+    "user_id": "user_aurora_accountant",
+    "identity_subject": "synthetic_subject_user_aurora_accountant",
+    "email": "accountant@aurora.example",
+    "display_name": "Aurora accountant",
+    "active": true
+  },
+  {
+    "user_id": "user_aurora_viewer",
+    "identity_subject": "synthetic_subject_user_aurora_viewer",
+    "email": "viewer@aurora.example",
+    "display_name": "Aurora viewer",
+    "active": true
+  },
+  {
+    "user_id": "user_copper_owner",
+    "identity_subject": "synthetic_subject_user_copper_owner",
+    "email": "owner@copper.example",
+    "display_name": "Copper owner",
+    "active": true
+  },
+  {
+    "user_id": "user_shared_accountant",
+    "identity_subject": "synthetic_subject_user_shared_accountant",
+    "email": "accountant@shared.example",
+    "display_name": "Shared accountant",
+    "active": true
+  }
+]

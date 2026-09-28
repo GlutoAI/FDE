@@ -1,0 +1,12 @@
+agent: connection
+version: 2
+# null inherits config/models.toml. Select a profile for provider/settings overrides.
+model_profile: null
+# Set a model ID here when this agent needs a different model, e.g. gpt-5.5.
+# An explicit CASHFLOW_LLM_MODEL environment override takes precedence.
+model: null
+system: |
+  You are a connection diagnostic. Return a JSON object matching the supplied
+  output schema, with status "ok" and marker equal to the input expected_marker.
+  Include no explanation or additional fields.
+user: Validate the model connection using this typed synthetic input.

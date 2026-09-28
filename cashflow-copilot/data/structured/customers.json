@@ -1,0 +1,152 @@
+[
+  {
+    "customer_id": "CUS-A-001",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Harbor & Pine Retail",
+    "contact_name": "Alex Morgan",
+    "email": "billing1@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-002",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Summit Trail Fitness",
+    "contact_name": "Jamie Chen",
+    "email": "billing2@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-003",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Willow Creek Cafe",
+    "contact_name": "Taylor Reed",
+    "email": "billing3@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-004",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Northstar Design Studio",
+    "contact_name": "Casey Patel",
+    "email": "billing4@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-005",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Maple Grove Dental",
+    "contact_name": "Jordan Ellis",
+    "email": "billing5@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-006",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Silverline Home Goods",
+    "contact_name": "Riley Brooks",
+    "email": "billing6@aurora-clients.example",
+    "payment_terms_days": 45,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-007",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Cedar Path Consulting",
+    "contact_name": "Morgan Lee",
+    "email": "billing7@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-008",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Meadowbrook Pet Care",
+    "contact_name": "Avery Quinn",
+    "email": "billing8@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-009",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Juniper Learning Lab",
+    "contact_name": "Sam Rivera",
+    "email": "billing9@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-010",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Lighthouse Bicycle Works",
+    "contact_name": "Drew Parker",
+    "email": "billing10@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-011",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Oak & Ember Catering",
+    "contact_name": "Cameron Wells",
+    "email": "billing11@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-A-012",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Bluebird Garden Supply",
+    "contact_name": "Robin Lane",
+    "email": "billing12@aurora-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-B-001",
+    "tenant_id": "tenant_copper",
+    "display_name": "Harbor & Pine Retail",
+    "contact_name": "Alex Morgan",
+    "email": "billing1@copper-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-B-002",
+    "tenant_id": "tenant_copper",
+    "display_name": "Summit Trail Fitness",
+    "contact_name": "Jamie Chen",
+    "email": "billing2@copper-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  },
+  {
+    "customer_id": "CUS-B-003",
+    "tenant_id": "tenant_copper",
+    "display_name": "Willow Creek Cafe",
+    "contact_name": "Taylor Reed",
+    "email": "billing3@copper-clients.example",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "active": true
+  }
+]

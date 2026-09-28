@@ -1,0 +1,2 @@
+dispute_id,tenant_id,invoice_id,customer_id,opened_date,disputed_cents,currency,status,reason,evidence_document_id,collection_hold
+dispute_willow,tenant_aurora,INV-A-1003,CUS-A-003,2026-09-21,200000,USD,open,Customer contests authorization for extra creative revisions.,email-willow-dispute,true

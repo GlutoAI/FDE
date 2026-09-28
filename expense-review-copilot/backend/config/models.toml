@@ -1,0 +1,47 @@
+# Default -> optional role mapping -> agent YAML -> explicit environment override.
+default_profile = "connection_openai"
+# Live embedding profile; fixture mode always uses [embedding_profiles.fixture].
+default_embedding_profile = "openai_small"
+
+[profiles.fixture]
+provider = "fixture"
+model_id = "connection-fixture-v1"
+timeout_seconds = 2
+max_output_tokens = 32
+
+[profiles.connection_openai]
+provider = "openai"
+model_id = "gpt-5.4-mini-2026-03-17"
+timeout_seconds = 20
+max_output_tokens = 128
+reasoning_effort = "none"
+
+[profiles.connection_anthropic]
+provider = "anthropic"
+model_id = "claude-opus-5-5"
+timeout_seconds = 20
+max_output_tokens = 128
+
+[roles]
+connection = "connection_openai"
+
+# Profile used when a vendor is chosen explicitly (smoke --live --provider, EXPENSE_LLM_PROVIDER).
+[vendor_profiles]
+openai = "connection_openai"
+anthropic = "connection_anthropic"
+
+# Changing model_id or dimensions changes the index version; reindex before searching.
+[embedding_profiles.fixture]
+provider = "fixture"
+model_id = "hashing-embedder-v1"
+dimensions = 256
+timeout_seconds = 2
+max_batch_size = 64
+
+# Uses the OpenAI key (EXPENSE_OPENAI_API_KEY); text-embedding-3 models accept shortened vectors.
+[embedding_profiles.openai_small]
+provider = "openai"
+model_id = "text-embedding-3-small"
+dimensions = 512
+timeout_seconds = 20
+max_batch_size = 64

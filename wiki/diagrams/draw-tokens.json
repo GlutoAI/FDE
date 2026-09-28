@@ -1,0 +1,30 @@
+{
+  "$description": "Diagram notation palette. Import as Figma variables. NOT a product design-system palette - see wiki/figma-draw-standards.md.",
+  "$verified": "Contrast and colour-blindness separation measured, not estimated. Worst-case pairwise deltaE across normal/protanopia/deuteranopia/tritanopia = 14.7.",
+  "diagram": {
+    "canvas": "#FFFFFF",
+    "ink": { "default": "#1A1A1A", "onSolid": "#FFFFFF" },
+    "lane": {
+      "client":    { "hue": "Indigo", "tint": "#E4DFFC", "stroke": "#785EF0", "solid": "#785EF0" },
+      "gateway":   { "hue": "Red",    "tint": "#FCE0E4", "stroke": "#D65C6B", "solid": "#BE525F" },
+      "service":   { "hue": "Blue",   "tint": "#E0EBF5", "stroke": "#5C8AB8", "solid": "#5179A1" },
+      "datastore": { "hue": "Green",  "tint": "#D3E7D6", "stroke": "#228833", "solid": "#228833" },
+      "external":  { "hue": "Gold",   "tint": "#FFEFCC", "stroke": "#B87F00", "solid": "#9E6D00" },
+      "async":     { "hue": "Purple", "tint": "#EED6E4", "stroke": "#AA3377", "solid": "#AA3377" }
+    },
+    "annotation": { "tint": "#FBF6C4", "stroke": "#8A7B00", "solid": "#6B6000" },
+    "neutral":    { "tint": "#F2F2F2", "stroke": "#595959", "solid": "#404040" },
+    "edge":       { "default": "#595959" },
+    "geometry": {
+      "grid": 8, "radius": 8, "nodeMinWidth": 160,
+      "paddingX": 16, "paddingY": 12,
+      "nodeGapX": 48, "nodeGapY": 32,
+      "strokeDefault": 2, "strokeMutating": 4
+    },
+    "type": {
+      "name":       { "size": 14, "weight": "medium" },
+      "stereotype": { "size": 11, "weight": "medium", "case": "uppercase" },
+      "qualifier":  { "size": 11, "weight": "regular" }
+    }
+  }
+}

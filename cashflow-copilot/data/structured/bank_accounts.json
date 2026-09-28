@@ -1,0 +1,22 @@
+[
+  {
+    "bank_account_id": "bank_tenant_aurora",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Synthetic operating account",
+    "currency": "USD",
+    "balance_cents": 4200000,
+    "balance_as_of": "2026-09-26T12:00:00Z",
+    "available_balance_cents": 4200000,
+    "is_synthetic": true
+  },
+  {
+    "bank_account_id": "bank_tenant_copper",
+    "tenant_id": "tenant_copper",
+    "display_name": "Synthetic operating account",
+    "currency": "USD",
+    "balance_cents": 7500000,
+    "balance_as_of": "2026-09-26T12:00:00Z",
+    "available_balance_cents": 7500000,
+    "is_synthetic": true
+  }
+]

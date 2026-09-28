@@ -1,0 +1,18 @@
+[
+  {
+    "tenant_id": "tenant_aurora",
+    "legal_name": "Aurora Creative Agency",
+    "timezone": "America/New_York",
+    "base_currency": "USD",
+    "owner_email": "owner@aurora.example",
+    "is_synthetic": true
+  },
+  {
+    "tenant_id": "tenant_copper",
+    "legal_name": "Copper Finch Studio",
+    "timezone": "America/New_York",
+    "base_currency": "USD",
+    "owner_email": "owner@copper.example",
+    "is_synthetic": true
+  }
+]

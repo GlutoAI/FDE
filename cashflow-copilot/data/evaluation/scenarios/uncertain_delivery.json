@@ -1,0 +1,14 @@
+{
+  "scenario_id": "uncertain_delivery",
+  "tenant_id": "tenant_aurora",
+  "apply_to": "isolated_copy_of_baseline",
+  "evaluation_time": "2026-09-26T12:05:00Z",
+  "action_id": "action_harbor_001",
+  "idempotency_key": "synthetic:tenant_aurora:draft_harbor_001:v1",
+  "draft_id": "draft_harbor_001",
+  "approved_version": 1,
+  "approved_by": "user_aurora_owner",
+  "delivery_status": "unknown_after_timeout",
+  "provider_supports_idempotency": false,
+  "note": "In this isolated scenario approval occurred at 12:01 and sending timed out at 12:02. An application idempotency key alone cannot guarantee exactly-once external delivery."
+}

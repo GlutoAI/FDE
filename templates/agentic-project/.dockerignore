@@ -1,0 +1,19 @@
+# .dockerignore: secrets and local data never enter an image build context.
+.env
+.env.*
+**/.env
+**/.env.*
+.git
+**/.venv
+.tools
+backend/data
+frontend/dist
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+**/.mypy_cache
+**/node_modules
+backend/tests
+.DS_Store
+data/

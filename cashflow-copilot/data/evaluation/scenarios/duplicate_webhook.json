@@ -1,0 +1,25 @@
+{
+  "scenario_id": "duplicate_webhook",
+  "tenant_id": "tenant_aurora",
+  "apply_to": "isolated_copy_of_baseline",
+  "evaluation_time": "2026-09-26T12:05:00Z",
+  "events": [
+    {
+      "event_id": "same_provider_event",
+      "kind": "payment_settled",
+      "occurred_at": "2026-09-26T12:03:00Z",
+      "payment_id": "pay_webhook",
+      "invoice_id": "INV-A-1001",
+      "amount_cents": 900000
+    },
+    {
+      "event_id": "same_provider_event",
+      "kind": "payment_settled",
+      "occurred_at": "2026-09-26T12:03:00Z",
+      "payment_id": "pay_webhook",
+      "invoice_id": "INV-A-1001",
+      "amount_cents": 900000
+    }
+  ],
+  "note": "Two deliveries of the same synthetic event; one settlement. This is an internal normalized fixture, not an Intuit webhook payload."
+}

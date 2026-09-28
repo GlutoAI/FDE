@@ -1,0 +1,44 @@
+%% L2 Topology — Support Triage Agent
+%% Pattern: orchestrator-workers composed with evaluator-optimizer
+%% Status: EXAMPLE ONLY — template for the standard, not a built system
+%% Owner: unassigned  |  Date: 2026-09-19
+%% Notation: wiki/figma-draw-standards.md  (labels are "Name (stereotype)")
+flowchart LR
+    subgraph client ["Clients"]
+        web["React SPA (web)"]
+    end
+    subgraph gateway ["Gateway"]
+        api["FastAPI Router (api)"]
+    end
+    subgraph service ["Agent Services"]
+        guard["Input Guardrail (guard-in)"]
+        orch["Triage Orchestrator (orchestrator)"]
+        research["Research Agent (agent)"]
+        drafter["Draft Agent (agent)"]
+        critic["Evaluator Agent (evaluator)"]
+    end
+    subgraph datastore ["State"]
+        runs["Run Checkpoints (state)"]
+        vectors["Knowledge Index (vector)"]
+    end
+    subgraph async ["Async"]
+        approvals["Approval Queue (approval)"]
+    end
+    subgraph external ["External"]
+        model["Model Provider (model)"]
+        tickets["Ticketing MCP (mcp)"]
+    end
+
+    web -->|"Submits request, mutating"| api
+    api -->|"Screens prompt, read-only"| guard
+    guard -->|"Starts run, mutating"| orch
+    orch -->|"Delegates lookup, max 6 steps"| research
+    orch -->|"Delegates reply, max 1 draft"| drafter
+    orch -->|"Writes checkpoint, mutating"| runs
+    orch <---|"Returns verdict, max 2 rounds"| critic
+    drafter -->|"Requests review, read-only"| critic
+    research -->|"Queries index, read-only"| vectors
+    orch -.->|"Escalates low confidence, mutating"| approvals
+    approvals -.->|"Resumes run, mutating"| orch
+    research -.->|"Searches tickets, read-only"| tickets
+    orch -.->|"All agents: completions, read-only"| model

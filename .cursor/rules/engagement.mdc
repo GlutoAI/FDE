@@ -1,0 +1,42 @@
+---
+description: Always-on working agreement for this repository - plan before editing, bounded changes, explain generated code, verify before claiming done, never expose secrets.
+alwaysApply: true
+---
+
+# Working agreement
+
+These apply to every task in this repository. They are deliberately few — rules load into every prompt and override skills on conflict, so only what must *always* hold belongs here. Everything else lives in `.cursor/skills/` and `wiki/`.
+
+## Before editing
+
+Read the relevant code first. Do not infer structure from filenames.
+
+State a short plan before making changes: what you will change, why that rather than the obvious alternative, and what you will check afterwards.
+
+Prefer the pattern already in the codebase over a better pattern imported from elsewhere. Consistency beats local improvement unless the existing pattern is the bug.
+
+## While editing
+
+Make one bounded, reviewable change at a time. A slice that runs end to end beats a layer that does not run at all.
+
+Flag deliberate shortcuts as you make them. A stub that is named is sequencing; a stub that is silent is an oversight.
+
+## Explaining
+
+Be able to explain every line you produce — what it does, why it fits, how it fails. Never present unexplained generated code as finished work.
+
+Where a model is involved, state plainly what is model judgement and what is deterministic code.
+
+## Verifying
+
+Name the checks before running them. Then run them.
+
+Distinguish **verified** from **assumed** in every report. If a command was run and its output observed, say so; if not, say that instead. Never describe untested code as working.
+
+An HTTP 200 is not proof that the business task succeeded.
+
+## Secrets
+
+Never print, log, commit, or paste an API key, token, or credential — not into code, prompts, config, reference files, or browser-visible code. Read them from the environment.
+
+Do not make live model calls implicitly on import, ordinary startup, or default tests. When the user requests connection verification or supplies a key for that purpose, use a separate bounded smoke command with a synthetic prompt, no tools, and no automatic retries. That request is authorization; do not ask again. Without authorization, keep the key unused and report live verification as not run.

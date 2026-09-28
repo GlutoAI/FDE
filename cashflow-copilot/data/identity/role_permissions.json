@@ -1,0 +1,16 @@
+{
+  "owner": [
+    "read",
+    "draft",
+    "approve",
+    "manage_members"
+  ],
+  "accountant": [
+    "read",
+    "draft"
+  ],
+  "viewer": [
+    "read"
+  ],
+  "enforcement": "Resolve tenant membership server-side; never trust a requested tenant ID alone."
+}

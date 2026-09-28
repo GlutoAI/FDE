@@ -1,0 +1,44 @@
+[
+  {
+    "membership_id": "membership_1",
+    "user_id": "user_aurora_owner",
+    "tenant_id": "tenant_aurora",
+    "role": "owner",
+    "active": true
+  },
+  {
+    "membership_id": "membership_2",
+    "user_id": "user_aurora_accountant",
+    "tenant_id": "tenant_aurora",
+    "role": "accountant",
+    "active": true
+  },
+  {
+    "membership_id": "membership_3",
+    "user_id": "user_aurora_viewer",
+    "tenant_id": "tenant_aurora",
+    "role": "viewer",
+    "active": true
+  },
+  {
+    "membership_id": "membership_4",
+    "user_id": "user_copper_owner",
+    "tenant_id": "tenant_copper",
+    "role": "owner",
+    "active": true
+  },
+  {
+    "membership_id": "membership_5",
+    "user_id": "user_shared_accountant",
+    "tenant_id": "tenant_aurora",
+    "role": "accountant",
+    "active": true
+  },
+  {
+    "membership_id": "membership_6",
+    "user_id": "user_shared_accountant",
+    "tenant_id": "tenant_copper",
+    "role": "accountant",
+    "active": true
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "connection_id": "connection_tenant_aurora",
+    "tenant_id": "tenant_aurora",
+    "provider": "quickbooks_fixture",
+    "environment": "synthetic",
+    "realm_id": "synthetic_realm_tenant_aurora",
+    "status": "connected_fixture",
+    "last_successful_sync_at": "2026-09-26T11:55:00Z",
+    "freshness_limit_minutes": 60,
+    "credentials_present": false
+  },
+  {
+    "connection_id": "connection_tenant_copper",
+    "tenant_id": "tenant_copper",
+    "provider": "quickbooks_fixture",
+    "environment": "synthetic",
+    "realm_id": "synthetic_realm_tenant_copper",
+    "status": "connected_fixture",
+    "last_successful_sync_at": "2026-09-26T11:55:00Z",
+    "freshness_limit_minutes": 60,
+    "credentials_present": false
+  }
+]

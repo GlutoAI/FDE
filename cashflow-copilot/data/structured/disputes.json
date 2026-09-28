@@ -1,0 +1,15 @@
+[
+  {
+    "dispute_id": "dispute_willow",
+    "tenant_id": "tenant_aurora",
+    "invoice_id": "INV-A-1003",
+    "customer_id": "CUS-A-003",
+    "opened_date": "2026-09-21",
+    "disputed_cents": 200000,
+    "currency": "USD",
+    "status": "open",
+    "reason": "Customer contests authorization for extra creative revisions.",
+    "evidence_document_id": "email-willow-dispute",
+    "collection_hold": true
+  }
+]

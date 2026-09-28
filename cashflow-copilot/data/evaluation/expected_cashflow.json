@@ -1,0 +1,131 @@
+{
+  "tenant_id": "tenant_aurora",
+  "as_of": "2026-09-26T12:00:00Z",
+  "horizon_end": "2026-10-10",
+  "currency": "USD",
+  "starting_cash_cents": 4200000,
+  "baseline_receipts_cents": 1200000,
+  "scheduled_bills_cents": 2200000,
+  "scheduled_payroll_cents": 4000000,
+  "baseline_closing_cash_cents": -800000,
+  "minimum_cash_cents": -800000,
+  "first_negative_cash_date": "2026-10-09",
+  "overdue_balance_cents": 2000000,
+  "overdue_invoice_ids": [
+    "INV-A-1001",
+    "INV-A-1002",
+    "INV-A-1003"
+  ],
+  "eligible_reminder_invoice_ids": [
+    "INV-A-1001",
+    "INV-A-1002"
+  ],
+  "held_invoice_ids": [
+    "INV-A-1003"
+  ],
+  "eligible_collection_balance_cents": 1500000,
+  "scenario_if_both_eligible_balances_settle_before_payroll_cents": 700000,
+  "scenario_if_harbor_only_settles_before_payroll_cents": 100000,
+  "scenario_if_only_tentative_summit_installment_settles_cents": -600000,
+  "daily_projection": [
+    {
+      "date": "2026-09-27",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 4200000
+    },
+    {
+      "date": "2026-09-28",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 4200000
+    },
+    {
+      "date": "2026-09-29",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 4200000
+    },
+    {
+      "date": "2026-09-30",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 4200000
+    },
+    {
+      "date": "2026-10-01",
+      "receipts_cents": 0,
+      "bills_cents": 1000000,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-02",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-03",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-04",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-05",
+      "receipts_cents": 700000,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3900000
+    },
+    {
+      "date": "2026-10-06",
+      "receipts_cents": 0,
+      "bills_cents": 700000,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-07",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-08",
+      "receipts_cents": 500000,
+      "bills_cents": 500000,
+      "payroll_cents": 0,
+      "closing_cash_cents": 3200000
+    },
+    {
+      "date": "2026-10-09",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 4000000,
+      "closing_cash_cents": -800000
+    },
+    {
+      "date": "2026-10-10",
+      "receipts_cents": 0,
+      "bills_cents": 0,
+      "payroll_cents": 0,
+      "closing_cash_cents": -800000
+    }
+  ],
+  "grading_note": "Future receipts are assumptions. Do not present scenarios as guaranteed funds."
+}

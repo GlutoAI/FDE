@@ -1,0 +1,8 @@
+{
+  "scenario_id": "stale_sync",
+  "tenant_id": "tenant_aurora",
+  "apply_to": "isolated_copy_of_baseline",
+  "evaluation_time": "2026-09-26T12:00:00Z",
+  "connection_last_successful_sync_at": "2026-09-25T08:00:00Z",
+  "note": "Replace only the primary tenant's sync timestamp in an isolated test copy."
+}

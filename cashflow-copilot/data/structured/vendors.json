@@ -1,0 +1,50 @@
+[
+  {
+    "vendor_id": "VEN-A-001",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Cloud Canvas Hosting",
+    "category": "software",
+    "currency": "USD",
+    "email": "accounts1@vendors-a.example"
+  },
+  {
+    "vendor_id": "VEN-A-002",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Foundry Office Spaces",
+    "category": "rent",
+    "currency": "USD",
+    "email": "accounts2@vendors-a.example"
+  },
+  {
+    "vendor_id": "VEN-A-003",
+    "tenant_id": "tenant_aurora",
+    "display_name": "Campaign Metrics Lab",
+    "category": "contract_services",
+    "currency": "USD",
+    "email": "accounts3@vendors-a.example"
+  },
+  {
+    "vendor_id": "VEN-B-001",
+    "tenant_id": "tenant_copper",
+    "display_name": "Cloud Canvas Hosting",
+    "category": "software",
+    "currency": "USD",
+    "email": "accounts1@vendors-b.example"
+  },
+  {
+    "vendor_id": "VEN-B-002",
+    "tenant_id": "tenant_copper",
+    "display_name": "Foundry Office Spaces",
+    "category": "rent",
+    "currency": "USD",
+    "email": "accounts2@vendors-b.example"
+  },
+  {
+    "vendor_id": "VEN-B-003",
+    "tenant_id": "tenant_copper",
+    "display_name": "Campaign Metrics Lab",
+    "category": "contract_services",
+    "currency": "USD",
+    "email": "accounts3@vendors-b.example"
+  }
+]

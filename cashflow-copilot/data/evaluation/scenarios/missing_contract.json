@@ -1,0 +1,10 @@
+{
+  "scenario_id": "missing_contract",
+  "tenant_id": "tenant_aurora",
+  "apply_to": "isolated_copy_of_baseline",
+  "evaluation_time": "2026-09-26T12:00:00Z",
+  "exclude_document_ids": [
+    "contract-a-001"
+  ],
+  "note": "Simulate unavailable evidence; do not infer a fee from another customer's contract."
+}

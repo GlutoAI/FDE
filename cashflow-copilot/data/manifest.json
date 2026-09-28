@@ -1,0 +1,378 @@
+{
+  "dataset_id": "cashflow-copilot-synthetic-v1",
+  "generated_as_of": "2026-09-26T12:00:00Z",
+  "seed": 42,
+  "table_row_counts": {
+    "bank_accounts": 2,
+    "bank_transactions": 72,
+    "bills": 24,
+    "connections": 2,
+    "customers": 15,
+    "disputes": 1,
+    "invoices": 53,
+    "memberships": 6,
+    "payments": 46,
+    "payroll": 8,
+    "preferences": 3,
+    "receipt_assumptions": 3,
+    "tenants": 2,
+    "users": 5,
+    "vendors": 6
+  },
+  "document_count": 27,
+  "evaluation_case_count": 18,
+  "scenario_count": 8,
+  "files": [
+    {
+      "path": "dataset_config.json",
+      "sha256": "d7531a649e0133a9e997d26228397b53d4f3d5494a1d05b36025e714c3e7ac02",
+      "bytes": 671
+    },
+    {
+      "path": "documents/index.json",
+      "sha256": "77e38614cb15e8ba700e8403d64737af726392b3a67056059bc5b97fe3ea4969",
+      "bytes": 17074
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/amendment-silverline-net45.md",
+      "sha256": "53acd22ff73b130f0c326760e072f2f9712902083eff22d982083bd833ac54f9",
+      "bytes": 457
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-001.md",
+      "sha256": "129dce36291c076e29b764ed1260989e6915a9111cf713a58ce08e50009237d5",
+      "bytes": 690
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-002.md",
+      "sha256": "b177d2d6b08c8d4b1f32ec24183eb99a935895d71ee4495b5f679906af296ba7",
+      "bytes": 690
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-003.md",
+      "sha256": "2c3504b179a26ebc7dd6d7f1cec004255d145b0d4d0a35e69cf4b0a2fc6e2ac9",
+      "bytes": 684
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-004.md",
+      "sha256": "b09dddd3b1474dc9a8f6d0e81d481e6c5beac65bd86a2a9b0f4a7f4604c3c473",
+      "bytes": 696
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-005.md",
+      "sha256": "69905c7c3c5eb7ff0ead3ba30c114c96d3ed70849bbdc78c5b8faf01d84e15f5",
+      "bytes": 686
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-006.md",
+      "sha256": "7d4a6a4ce488576e59542e672ab9f1bbca6c91d2222dec3c5846fdb576486f3c",
+      "bytes": 692
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-007.md",
+      "sha256": "9722616262292f0f63a49a2b9fa6662c82329482a7f4ea3528f82c5a9e2d1622",
+      "bytes": 692
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-008.md",
+      "sha256": "b8448cbd10155f98fcb94bc1f4108dec1d69d1a0c2f26389c13d6f8893186afd",
+      "bytes": 690
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-009.md",
+      "sha256": "60803787701a21934d2489cb1b266cedab46b389247a3f93b75511b50b96095a",
+      "bytes": 690
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-010.md",
+      "sha256": "a599d856837b7cc08260ebb19944caff1289e7e2398f455275e8c0df113b5c44",
+      "bytes": 698
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-011.md",
+      "sha256": "036046ad3d226e78e8f5129ec1a0255c0f792fb0867691f67979394fed904db5",
+      "bytes": 690
+    },
+    {
+      "path": "documents/tenant_aurora/contracts/contract-a-012.md",
+      "sha256": "c0626a310a755f6aa2632a8348857a289ec72402ee49c16e7fa1b84e1a3acc70",
+      "bytes": 694
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-harbor-accepted.md",
+      "sha256": "740259f6475ad456ad326f0e20d803ff0d84a2f78a59be5b7deaf9d2e7c5c895",
+      "bytes": 400
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-maple-scheduled.md",
+      "sha256": "98631a25a1b3e51e658476c4e81bb8194f35b48fcdbfc9c058b86ac6f42aa69a",
+      "bytes": 361
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-northstar-scheduled.md",
+      "sha256": "51a02c7c332697544f108dfcffacd6acf2f46bd0dd6696fd33a033dde01264b2",
+      "bytes": 377
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-summit-partial.md",
+      "sha256": "8a59a0e96702aaf401d50e4353440b892aeb7132f0071e1b99b764bc373a8f92",
+      "bytes": 329
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-summit-promise.md",
+      "sha256": "aae5b008de24dd650adedf07fb71a39ee752244d542e700b39a6bc77498f542a",
+      "bytes": 438
+    },
+    {
+      "path": "documents/tenant_aurora/correspondence/email-willow-dispute.md",
+      "sha256": "340e7f543cf7a81d1e7909eb4e5598f2a47f752617988d101504353a04f7061d",
+      "bytes": 495
+    },
+    {
+      "path": "documents/tenant_aurora/policies/collections-policy-tenant_aurora.md",
+      "sha256": "f54a002b4898f9d779f02aed92a204d5323957cc9539f0607a49b7f7f61b7ce7",
+      "bytes": 1124
+    },
+    {
+      "path": "documents/tenant_aurora/policies/forecast-policy-tenant_aurora.md",
+      "sha256": "d6af00658b22b7602270a3ede8e5aca0611385513bd01f2933e85ff276621721",
+      "bytes": 860
+    },
+    {
+      "path": "documents/tenant_copper/contracts/contract-b-001.md",
+      "sha256": "7c98330204e3045a70dd574fe7b5a4f12561fdeb4f7b6c5f99d00fd95fb05a48",
+      "bytes": 687
+    },
+    {
+      "path": "documents/tenant_copper/contracts/contract-b-002.md",
+      "sha256": "bfe81c1f1657d9147233289c93bb57a547cd3284ac70dbf9d1ab6b68e14ec5dc",
+      "bytes": 687
+    },
+    {
+      "path": "documents/tenant_copper/contracts/contract-b-003.md",
+      "sha256": "06b9260106c9f3206e1489bbe362f05a34ac6ba85bb0bd0c518ca9bf622d1efb",
+      "bytes": 681
+    },
+    {
+      "path": "documents/tenant_copper/correspondence/email-copper-harbor.md",
+      "sha256": "c41b19510418fde1a9c33f2917bb935cdaa5b6bb9d373d4994aac1bde20dcdbe",
+      "bytes": 394
+    },
+    {
+      "path": "documents/tenant_copper/policies/collections-policy-tenant_copper.md",
+      "sha256": "ec5bba7093e63770d9b5b99c18a267bf5f91ad7dd7c2aaa895405a1d0bf31484",
+      "bytes": 1124
+    },
+    {
+      "path": "documents/tenant_copper/policies/forecast-policy-tenant_copper.md",
+      "sha256": "9be1d45d181fd8de4739230355a94c7cd038d3e68adb18335ab7ee070570602a",
+      "bytes": 860
+    },
+    {
+      "path": "evaluation/cases.jsonl",
+      "sha256": "c71fa0231b67d4d8b896e7e6348343fcc00bb5daa90bdbcffb0b797e042bd927",
+      "bytes": 7687
+    },
+    {
+      "path": "evaluation/expected_cashflow.json",
+      "sha256": "ff99876d3d806f061f0b8b76e0312560c1a83b2298cfe16c751cc711aab70dbb",
+      "bytes": 3211
+    },
+    {
+      "path": "evaluation/rubric.json",
+      "sha256": "57083b0de7c826b03da6741b836d3a8f9857076892af8c22f51c28d286e1e789",
+      "bytes": 1046
+    },
+    {
+      "path": "evaluation/scenarios/duplicate_webhook.json",
+      "sha256": "eb428ec563f69d84605b3e89d3a5aa9072ff66a7db6a6454f9fa7a37cf8f24b1",
+      "bytes": 783
+    },
+    {
+      "path": "evaluation/scenarios/edited_draft.json",
+      "sha256": "f8603656b557a57fb06b7921ec57ff9c0c03081b54bbb446a5b90af1ceb36657",
+      "bytes": 435
+    },
+    {
+      "path": "evaluation/scenarios/expired_oauth.json",
+      "sha256": "edf1b4f44df32a803147a8ac6f1d1a51260b9f80e118d3e357849f1708e4ae91",
+      "bytes": 337
+    },
+    {
+      "path": "evaluation/scenarios/missing_contract.json",
+      "sha256": "5f6647be42d84aad4e767d68dfcd72b460fbb6fd8b3e87b18c607a60022a6aa1",
+      "bytes": 311
+    },
+    {
+      "path": "evaluation/scenarios/paid_after_draft.json",
+      "sha256": "bffd6ffa59a6566fe28f7245fcab5b91510452ac7bf15649753efdcc44061819",
+      "bytes": 553
+    },
+    {
+      "path": "evaluation/scenarios/prompt_injection.json",
+      "sha256": "1e22e4d84416055ad87d305bf88fa84a5ab9e5982c68170afa80eb3a645605b5",
+      "bytes": 722
+    },
+    {
+      "path": "evaluation/scenarios/stale_sync.json",
+      "sha256": "795b7c35fa94e7bd3e16af70185ac481f5afc8a5829d98c9a20cafcafc67dc28",
+      "bytes": 306
+    },
+    {
+      "path": "evaluation/scenarios/uncertain_delivery.json",
+      "sha256": "59279779d80c5bafd8074cb7a3af0b55ee72cb8cb254bc865c421cfd5e29c1bf",
+      "bytes": 635
+    },
+    {
+      "path": "identity/connections.json",
+      "sha256": "802b24028301b5eaf1b1392f8879f81475ed2a4e31d2e1f11000e5503cab96c3",
+      "bytes": 741
+    },
+    {
+      "path": "identity/memberships.json",
+      "sha256": "fa1491198a80ec6754651a7ce84af44d03bc1d9f22d319041ca31930b27476db",
+      "bytes": 971
+    },
+    {
+      "path": "identity/role_permissions.json",
+      "sha256": "6fcd73e7011c96476ca77e49b68364b41f31ab1d4ee0d8cfd18871b3d8b9dec4",
+      "bytes": 259
+    },
+    {
+      "path": "identity/tenants.json",
+      "sha256": "c2f5b9ba3fc27ba74ea68f0530c84d8d110ccc727114982c079c1d1d4e58b70b",
+      "bytes": 438
+    },
+    {
+      "path": "identity/users.json",
+      "sha256": "2a738b2cb11225b97b78b878d1f67a4da6373732afca5c572fbacc390f8b0bc3",
+      "bytes": 1047
+    },
+    {
+      "path": "memory/preferences.json",
+      "sha256": "4effafa8c53dc49a87a7dd8243188bff9ab653ee726de6ae0bceef4773a4c7c7",
+      "bytes": 1193
+    },
+    {
+      "path": "structured/bank_accounts.csv",
+      "sha256": "eae8dc43fba8156f2ae68993adcc2b071056f648412473203d420bdcc814572e",
+      "bytes": 327
+    },
+    {
+      "path": "structured/bank_accounts.json",
+      "sha256": "515d58ccafb37aee8a14683b33ed2817f819bcdd91d56316aaaa2287d8bc9a50",
+      "bytes": 607
+    },
+    {
+      "path": "structured/bank_transactions.csv",
+      "sha256": "e4f860b3ee4199211c93943bbb35fada7b2e7ce4973da930f4d68163c7abd5c5",
+      "bytes": 7218
+    },
+    {
+      "path": "structured/bank_transactions.json",
+      "sha256": "f81c71a7c09193458468ca682c3ccefe9c6ce389e0f5e66a93393d9763f832cf",
+      "bytes": 21588
+    },
+    {
+      "path": "structured/bills.csv",
+      "sha256": "fd26156e0b7c634a94d2bc73365a2eb04a0651acc96b8e13067a8d0ac2edc26a",
+      "bytes": 2420
+    },
+    {
+      "path": "structured/bills.json",
+      "sha256": "d836982479bc960438cc8e748f056922ca2b0e2a7ff181eda16088744fc1d5f0",
+      "bytes": 8481
+    },
+    {
+      "path": "structured/customers.csv",
+      "sha256": "2255048e36ae96a55034039876f8917fd2fc9977dce430f54db967aef84580ae",
+      "bytes": 1609
+    },
+    {
+      "path": "structured/customers.json",
+      "sha256": "718f622f01e4a6c8d463750bc42406f3c1668f088dcf004bc8de35fed56e5f47",
+      "bytes": 4118
+    },
+    {
+      "path": "structured/disputes.csv",
+      "sha256": "69f03a6f07c2c1f81ecde5c0744ec95f588b0fa2be5aba95b044aa89a7acd3a2",
+      "bytes": 296
+    },
+    {
+      "path": "structured/disputes.json",
+      "sha256": "179d4443c9fa6ef427d074f9a335a99f86d4f342eda4b8e25d09c48fd68e78cd",
+      "bytes": 413
+    },
+    {
+      "path": "structured/invoices.csv",
+      "sha256": "e8b346624d06038db80b7fbc16bc088d314badd0a2de7ca67f382855d3181da2",
+      "bytes": 8949
+    },
+    {
+      "path": "structured/invoices.json",
+      "sha256": "fabe364ecd9e5cd600338c607f669554051a9413463e6181b6ea2fc7d4467c1b",
+      "bytes": 28046
+    },
+    {
+      "path": "structured/payments.csv",
+      "sha256": "3acd0f5e8848f21638f71615269eb3b0fddb013a5790d933d66dbe20d1d3696e",
+      "bytes": 3509
+    },
+    {
+      "path": "structured/payments.json",
+      "sha256": "3a3ccda031ff04541a0da91b91286a62e2e1d505ae460048f5612f661fd2082c",
+      "bytes": 11338
+    },
+    {
+      "path": "structured/payroll.csv",
+      "sha256": "ea22ff6c6b63d2d44121806da45b09c45de83b96908dfbd643ac9abbf9632062",
+      "bytes": 1149
+    },
+    {
+      "path": "structured/payroll.json",
+      "sha256": "52295cf2951a17a459fee69e236da4673fb593ad671793cd09d705941201dbe9",
+      "bytes": 2499
+    },
+    {
+      "path": "structured/receipt_assumptions.csv",
+      "sha256": "3d2155af95b3917f8aac80b6005ec1f40e802c743dcb0fe2f93353fdc3af6adc",
+      "bytes": 513
+    },
+    {
+      "path": "structured/receipt_assumptions.json",
+      "sha256": "9f274e2efd1d108c6c4a04a827d2f11706584feae5f1df6445f62ffca10ce86e",
+      "bytes": 1108
+    },
+    {
+      "path": "structured/vendors.csv",
+      "sha256": "f993c9aae25268f8235e6796658c6e49f7fcc0a564a87b66f2582be9e46b0cef",
+      "bytes": 585
+    },
+    {
+      "path": "structured/vendors.json",
+      "sha256": "4b3e7978cd42e0143e74fb14b800074b7e9640155d09b23bde3211fc6838c5d7",
+      "bytes": 1281
+    },
+    {
+      "path": "workflow/action_log.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "workflow/approvals.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "workflow/checkpoints.json",
+      "sha256": "90728d25825ad1e6f66df8978555f048fff3ad2eefda0a42f8fd2934c6a7521e",
+      "bytes": 408
+    },
+    {
+      "path": "workflow/drafts.json",
+      "sha256": "f96194a4e94fc08dc21d7500afd5c948437238667ec30377500d461f785ad668",
+      "bytes": 641
+    }
+  ],
+  "note": "Manifest excludes itself. Generation is deterministic; no network calls or real data."
+}

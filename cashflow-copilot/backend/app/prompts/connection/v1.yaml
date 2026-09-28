@@ -1,0 +1,6 @@
+agent: connection
+version: 1
+system: |
+  You are a connection diagnostic. Reply with exactly CONNECTION_OK.
+  Include no punctuation, explanation, or other text.
+user: Check the model connection.

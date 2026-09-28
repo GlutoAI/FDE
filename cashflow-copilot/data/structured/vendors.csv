@@ -1,0 +1,7 @@
+vendor_id,tenant_id,display_name,category,currency,email
+VEN-A-001,tenant_aurora,Cloud Canvas Hosting,software,USD,accounts1@vendors-a.example
+VEN-A-002,tenant_aurora,Foundry Office Spaces,rent,USD,accounts2@vendors-a.example
+VEN-A-003,tenant_aurora,Campaign Metrics Lab,contract_services,USD,accounts3@vendors-a.example
+VEN-B-001,tenant_copper,Cloud Canvas Hosting,software,USD,accounts1@vendors-b.example
+VEN-B-002,tenant_copper,Foundry Office Spaces,rent,USD,accounts2@vendors-b.example
+VEN-B-003,tenant_copper,Campaign Metrics Lab,contract_services,USD,accounts3@vendors-b.example

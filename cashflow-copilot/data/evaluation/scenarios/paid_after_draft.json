@@ -1,0 +1,17 @@
+{
+  "scenario_id": "paid_after_draft",
+  "tenant_id": "tenant_aurora",
+  "apply_to": "isolated_copy_of_baseline",
+  "evaluation_time": "2026-09-26T12:05:00Z",
+  "events": [
+    {
+      "event_id": "payment_after_draft",
+      "kind": "payment_settled",
+      "occurred_at": "2026-09-26T12:03:00Z",
+      "payment_id": "pay_after_draft",
+      "invoice_id": "INV-A-1001",
+      "amount_cents": 900000
+    }
+  ],
+  "note": "Start from the baseline pending draft. Apply settlement to payment, invoice, and bank records atomically; stop the stale draft."
+}

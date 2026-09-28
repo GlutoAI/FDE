@@ -1,0 +1,23 @@
+# Local secrets must never enter the image build context.
+.env
+.env.*
+**/.env
+**/.env.*
+
+.git
+**/.venv
+**/node_modules
+frontend/dist
+backend/data
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+**/.mypy_cache
+backend/tests
+.DS_Store
+artifacts
+
+# Evaluation answers belong in the test harness, not application images.
+data/evaluation
+datasets

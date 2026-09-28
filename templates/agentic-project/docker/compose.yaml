@@ -1,0 +1,31 @@
+# Run from the project root: docker compose -f docker/compose.yaml up --build
+# Open http://localhost:3000 (UI, with /api proxied) or http://localhost:8000/health (API).
+# No service receives API keys: the API runs in fixture mode. Pass a key to a service only
+# through an explicit `environment` entry when that service needs it.
+name: agentic-project-template
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    environment:
+      TEMPLATE_ENV: local
+      TEMPLATE_MODEL_MODE: fixture
+    volumes:
+      - api-data:/project/backend/data
+    ports:
+      - "127.0.0.1:8000:8000"
+
+  ui:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.ui
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:3000:8080"
+
+volumes:
+  api-data:

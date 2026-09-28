@@ -1,0 +1,11 @@
+# Approved MCP servers. The client launches only these package modules over stdio, and refuses
+# to connect unless a server advertises exactly the tools listed here.
+[servers.expenses]
+module = "app.mcp.expenses_server"
+tools = ["get_expense"]
+init_timeout_seconds = 20
+read_timeout_seconds = 10
+
+# Agent roles see only the tools listed for them, per server.
+[roles.expense_reader]
+expenses = ["get_expense"]

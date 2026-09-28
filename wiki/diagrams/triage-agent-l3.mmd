@@ -1,0 +1,25 @@
+%% L3 Loop — one triage run
+%% Status: EXAMPLE ONLY — template for the standard, not a built system
+%% Owner: unassigned  |  Date: 2026-09-19
+%% Note: `Note over` is silently stripped by generate_diagram. Annotate in Figma after generating.
+sequenceDiagram
+    participant User
+    participant Orch as Triage Orchestrator
+    participant Agent as Research Agent
+    participant Tools as Ticketing MCP
+    participant Store as Run Checkpoints
+
+    User->>Orch: Triage request
+    Orch->>Store: Persist run, step 0
+    Orch->>Agent: Delegate lookup, budget 6 steps
+    loop Until answer or 6-step budget exhausted
+        Agent->>Tools: search_tickets(query)
+        Tools-->>Agent: Matching tickets
+        Agent->>Store: Persist step N
+    end
+    alt Confidence below threshold
+        Agent-->>Orch: Escalate
+        Orch-->>User: Await human approval
+    else Confidence acceptable
+        Agent-->>Orch: Findings
+    end

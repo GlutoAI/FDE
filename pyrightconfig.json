@@ -1,0 +1,22 @@
+{
+  "$comment": "Editor analysis only (Cursor's Python language server). Each backend resolves `app` from its own root and third-party packages from its own .venv. venv pins analysis to an isolated environment because the Anaconda base ships a stray top-level `tests` package that shadows tests/synthetic.py. mypy strict in scripts/check.sh remains the real type gate. Add an entry here for each new project.",
+  "typeCheckingMode": "standard",
+  "pythonVersion": "3.12",
+  "venvPath": "templates/agentic-project/backend",
+  "venv": ".venv",
+  "exclude": ["**/node_modules", "**/.venv", "**/.tools", "**/__pycache__", "**/dist"],
+  "executionEnvironments": [
+    {
+      "root": "templates/agentic-project/backend",
+      "extraPaths": ["templates/agentic-project/backend/.venv/lib/python3.12/site-packages"]
+    },
+    {
+      "root": "cashflow-copilot/backend",
+      "extraPaths": ["cashflow-copilot/backend/.venv/lib/python3.12/site-packages"]
+    },
+    {
+      "root": "expense-review-copilot/backend",
+      "extraPaths": ["expense-review-copilot/backend/.venv/lib/python3.12/site-packages"]
+    }
+  ]
+}

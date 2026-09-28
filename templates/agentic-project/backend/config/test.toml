@@ -1,0 +1,2 @@
+# Selected by TEMPLATE_ENV=test. Tests stay offline whatever .env says.
+model_mode = "fixture"

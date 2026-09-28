@@ -1,0 +1,16 @@
+customer_id,tenant_id,display_name,contact_name,email,payment_terms_days,currency,active
+CUS-A-001,tenant_aurora,Harbor & Pine Retail,Alex Morgan,billing1@aurora-clients.example,30,USD,true
+CUS-A-002,tenant_aurora,Summit Trail Fitness,Jamie Chen,billing2@aurora-clients.example,30,USD,true
+CUS-A-003,tenant_aurora,Willow Creek Cafe,Taylor Reed,billing3@aurora-clients.example,30,USD,true
+CUS-A-004,tenant_aurora,Northstar Design Studio,Casey Patel,billing4@aurora-clients.example,30,USD,true
+CUS-A-005,tenant_aurora,Maple Grove Dental,Jordan Ellis,billing5@aurora-clients.example,30,USD,true
+CUS-A-006,tenant_aurora,Silverline Home Goods,Riley Brooks,billing6@aurora-clients.example,45,USD,true
+CUS-A-007,tenant_aurora,Cedar Path Consulting,Morgan Lee,billing7@aurora-clients.example,30,USD,true
+CUS-A-008,tenant_aurora,Meadowbrook Pet Care,Avery Quinn,billing8@aurora-clients.example,30,USD,true
+CUS-A-009,tenant_aurora,Juniper Learning Lab,Sam Rivera,billing9@aurora-clients.example,30,USD,true
+CUS-A-010,tenant_aurora,Lighthouse Bicycle Works,Drew Parker,billing10@aurora-clients.example,30,USD,true
+CUS-A-011,tenant_aurora,Oak & Ember Catering,Cameron Wells,billing11@aurora-clients.example,30,USD,true
+CUS-A-012,tenant_aurora,Bluebird Garden Supply,Robin Lane,billing12@aurora-clients.example,30,USD,true
+CUS-B-001,tenant_copper,Harbor & Pine Retail,Alex Morgan,billing1@copper-clients.example,30,USD,true
+CUS-B-002,tenant_copper,Summit Trail Fitness,Jamie Chen,billing2@copper-clients.example,30,USD,true
+CUS-B-003,tenant_copper,Willow Creek Cafe,Taylor Reed,billing3@copper-clients.example,30,USD,true

@@ -1,0 +1,3 @@
+bank_account_id,tenant_id,display_name,currency,balance_cents,balance_as_of,available_balance_cents,is_synthetic
+bank_tenant_aurora,tenant_aurora,Synthetic operating account,USD,4200000,2026-09-26T12:00:00Z,4200000,true
+bank_tenant_copper,tenant_copper,Synthetic operating account,USD,7500000,2026-09-26T12:00:00Z,7500000,true
